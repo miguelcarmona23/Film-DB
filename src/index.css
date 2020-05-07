@@ -7,6 +7,8 @@
 body {
   font-family: 'montserrat', sans-serif;
   background-color: #223343;
+  background: url(https://www.czechtourism.com/getmedia/9a884748-7ad4-441e-ad69-dd8c9b5e6e1a/98250400.jpg.aspx?width=4800&height=3000&ext=.jpg);
+  background-attachment: fixed;
 }
 
 header {
@@ -14,9 +16,10 @@ header {
 }
 
 header h1 {
+  font-family: 'Bebas Neue', cursive;
   color: #fff;
-  font-size: 48px;
-  font-weight: 500;
+  font-size: 90px;
+  font-weight: 300;
   text-align: center;
 }
 
