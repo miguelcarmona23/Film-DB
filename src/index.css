@@ -55,6 +55,12 @@ section {
   flex-wrap: wrap;
 }
 
+@media (max-width: 530px) {
+  .results {
+    justify-content: center;
+  }
+}
+
 .results .result {
   width: 33.333%;
   min-width: 250px;
