@@ -5,10 +5,8 @@
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
-  background-color: #223343;
-  background: url(https://www.czechtourism.com/getmedia/9a884748-7ad4-441e-ad69-dd8c9b5e6e1a/98250400.jpg.aspx?width=4800&height=3000&ext=.jpg);
-  background-attachment: fixed;
+  font-family: "montserrat", sans-serif;
+  background: url("background_image.jpg") #223343 fixed;
 }
 
 header {
@@ -16,7 +14,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   color: #fff;
   font-size: 90px;
   font-weight: 300;
@@ -145,9 +143,9 @@ section {
   background: #4484c4;
   color: #fff;
   border-radius: 8px;
-  border:none;
+  border: none;
   outline: none;
-  appearance:none;
+  appearance: none;
   cursor: pointer;
   transition: 0.4s ease-out;
 }
